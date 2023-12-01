@@ -18,13 +18,9 @@ fn calculate_sum(input: String) -> u32 {
             },
             _ => 0
         }
-    }).map(|num| {
-        println!("{}", num);
-        num
     }).sum::<u32>()
 }
 
-// find the first spelled out number (like one, two, three, etc)
 fn find_first_number(input: &str, order: impl Iterator<Item = usize>) -> u32 {
     let numbers = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
     for i in order {
@@ -47,9 +43,6 @@ fn calculate_sum_spelled(input: String) -> u32 {
         let first = find_first_number(line, directed_range(0, line.len() - 1));
         let last = find_first_number(line, directed_range(line.len() - 1, 0));
         first * 10 + last
-    }).map(|num| {
-        println!("{}", num);
-        num
     }).sum::<u32>()
 }
 
@@ -61,7 +54,6 @@ fn main() {
     let input = read_input_file("part_2.txt");
     let sum = calculate_sum_spelled(input);
     println!("Sum (part 2): {}", sum);
-    // 53655 is too low
 }
 
 fn directed_range(a: usize, b: usize) -> impl Iterator<Item = usize> {
