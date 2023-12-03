@@ -12,4 +12,5 @@ No major problems, tried out `nom` for parsing - worked well
 
 ## Day 3
 
+I feel like the `sum_parts` turned out way more complex than it needs to be, but at least it works
 
