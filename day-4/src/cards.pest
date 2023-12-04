@@ -1,0 +1,7 @@
+space = {" "+}
+number = {ASCII_DIGIT+}
+number_list = {number ~ (space ~ number)*}
+winning_numbers = {number_list}
+own_numbers = {number_list}
+card = {"Card" ~ space ~ number ~ ":" ~ space ~ winning_numbers ~ space ~ "|" ~ space ~ own_numbers ~ NEWLINE }
+cards = {card+}
