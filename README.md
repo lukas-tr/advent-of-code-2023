@@ -22,3 +22,8 @@ I tried out `pest` for parsing this time - the grammar is in a separate file and
 
 Didn't enjoy this day's challenge. Chose to do it the brute force way. 
 
+## Day 6
+
+I attempted to do the math properly this time, but ended up brute forcing it again.
+
+
