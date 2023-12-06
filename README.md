@@ -18,3 +18,7 @@ I feel like the `sum_parts` turned out way more complex than it needs to be, but
 
 I tried out `pest` for parsing this time - the grammar is in a separate file and can be reasoned about much more intuitively, but the whole matching of rules and converting the parsed structures to my own types was more cumbersome compared to `nom`.
 
+## Day 5
+
+Didn't enjoy this day's challenge. Chose to do it the brute force way. 
+
