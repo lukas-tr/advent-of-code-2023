@@ -26,4 +26,18 @@ Didn't enjoy this day's challenge. Chose to do it the brute force way.
 
 I attempted to do the math properly this time, but ended up brute forcing it again.
 
+## Day 7
+
+There's probably a prettier way to do this than with patterns to determine the type of the deck.
+
+```
+[] | [1] | [2] | [3] | [4] | [5] => 7,
+[1, 1] | [2, 1] | [3, 1] | [4, 1] => 6,
+[3, 2] | [2, 2] => 5,
+[3, 1, 1] | [2, 1, 1] | [1, 1, 1] => 4,
+[2, 2, 1] => 3,
+[2, 1, 1, 1] | [1, 1, 1, 1] => 2,
+[1, 1, 1, 1, 1] => 1,
+```
+
 
