@@ -40,4 +40,8 @@ There's probably a prettier way to do this than with patterns to determine the t
 [1, 1, 1, 1, 1] => 1,
 ```
 
+## Day 8
+
+This task required just the right amount of maths to be fun.
+
 
