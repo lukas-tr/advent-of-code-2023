@@ -44,4 +44,8 @@ There's probably a prettier way to do this than with patterns to determine the t
 
 This task required just the right amount of maths to be fun.
 
+## Day 9
+
+Part 2 was boring today, you just had to reverse the input.
+
 
