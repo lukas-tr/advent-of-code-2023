@@ -48,4 +48,7 @@ This task required just the right amount of maths to be fun.
 
 Part 2 was boring today, you just had to reverse the input.
 
+## Day 10
+
+Only did part 1 today.
 
