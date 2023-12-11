@@ -52,3 +52,7 @@ Part 2 was boring today, you just had to reverse the input.
 
 Only did part 1 today.
 
+## Day 11
+
+Skipped part 2 again.
+
